@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .centrar {
+    @apply flex justify-center items-center;
+  } 
+
+  .input-form {
+    @apply bg-gris-blanco border border-black rounded-md pl-2 mb-4 border-none focus:outline-none;
+  }
+}

@@ -1,0 +1,27 @@
+.tramsicion-boton-enviar {
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.tramsicion-boton-enviar:hover {
+    background-color: #5945df;
+}
+
+.transicion-gris {
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.transicion-gris:hover {
+    background-color: #b9b7b7;
+}
+
+.tramsicion-boton-enviar:active {
+    transition-duration: .1s;
+    background-color: #351adf;
+}
+
+.transicion-gris:active {
+    transition-duration: .1s;
+    background-color: #979494;
+}
